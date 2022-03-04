@@ -1,0 +1,592 @@
+/*========== CSS Reset ==========*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*=================================
+Custom CSS
+==================================*/
+
+
+/*======= Universal Styling =======*/
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+	margin: 0;
+}
+
+header h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #265954;
+	vertical-align: baseline;
+	text-align: left;
+	padding: 0;
+	border-bottom: 1.1em solid #265954;
+}
+
+header a:hover {
+	opacity: 50%;
+	font-size: .9em;
+	font-weight: bolder;
+}
+
+.container {
+    width: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Qwitcher Grypen', cursive;
+}
+
+main figure {
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Qwitcher Grypen', cursive;
+	font-size: 4.75em;
+	color: #212226;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: 150%;
+	color: #212226;
+}
+
+/*======= Menu Styling =======*/
+
+.navleft {
+	float: left;
+	width: 10%;
+	vertical-align: top;
+	margin: 0;
+	padding: 0;
+}
+
+#navright {
+	float: right;
+	width: 80%;
+	padding: .9em 2.5% 0 .1%;
+	vertical-align: top;
+	text-align: right;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .875em;
+}
+
+
+/*======= Main Styling =======*/
+
+.center img {
+	max-width: 100%;
+	align-items: center;
+	vertical-align: top;
+	margin: 0;
+}
+
+.center figcaption h2 {
+	font-size: 2em;
+	text-align: center;
+	vertical-align: top;
+	padding: 0 4%;
+	margin: 0 0 .6em;
+}
+
+
+/*======= Footer Styling =======*/
+
+.ftrnav {
+	text-align: center;
+}
+
+footer {
+	background-color: #ffffff;
+	height: 2.1em;
+	padding: .3em 0 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .875em;
+}
+
+footer nav ul li {
+	background-color: #265954;
+	padding: 3.5% 0;
+	vertical-align: middle;
+}
+
+footer nav li a {
+	font-size: 1.15em;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+footer p {
+	font-size: .4em;
+	text-align: right;
+	padding: .1em .75%;
+}
+
+footer a:hover {
+	opacity: 60%;
+	text-transform: uppercase;
+}
+
+footer ul a {
+	text-decoration: none;
+	color: #265954;
+}
+
+footer ul li a:hover {
+	font-weight: bolder;
+	letter-spacing: .04em;
+}
+
+.byline {
+	text-align: center;
+}
+
+.byline li {
+	clear: both;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .875em;
+	font-weight: bold;
+	color: #265954;
+	text-align: center;
+	margin: 0;
+	vertical-align: top;
+	padding: 0;
+	word-spacing: .05em;
+	letter-spacing: .03em;
+	line-height: 1.5em;
+}
+
+.byline li::after {
+	display: none;
+}
+
+/*=================================
+About Page
+==================================*/
+
+.abtleft {
+	display: block;
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+
+.abtright {
+	display: block;
+	float: right;
+	width: 100%;
+	margin: .5em 0;
+}
+
+.abtleft img {
+	max-width: 100%;
+	margin: 0;
+}
+
+.abtleft h2 {
+	font-size: 3.5em;
+	text-align: right;
+	text-shadow: .05em -.03em .02em #ffffff, -.08em .04em .01em #ffffff;
+	margin: 0;
+	line-height: 14%;
+	padding: 0 6% .5em;
+}
+
+.abtleft p {
+	padding: 0 6%;
+	font-size: 1em;
+	letter-spacing: .04em;
+	line-height: 200%;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.abtright article {
+	padding: .5em 6% .75em;
+}
+
+.abtright article p {
+	padding: 1em 0 .5em;
+}
+
+article p em {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+article ul li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .9em;
+	font-weight: bold;
+	line-height: 160%;
+	padding: 0 0 .2em;
+	text-indent: 8%;
+}
+
+.abtftr {
+	clear: both;
+}
+
+/*=================================
+Media Querries
+==================================*/
+
+
+/*======= Small Screens =======*/
+
+@media only screen and (min-width: 320px) {
+
+	#hamitems {
+		width: 100%;
+		position: sticky;
+		top: 0;
+	}
+	
+	#hamitems a {
+		box-sizing: border-box;
+		display: block;
+		width: 100%;
+		padding: .625em;
+		color: #212226;
+		font-weight: bold;
+		text-decoration: none;
+		text-align: right;
+	}
+	
+	#hamitems a:hover {
+		opacity: 90%;
+		color: #265954;
+		font-weight: bolder;
+	}
+	
+	#navright label {
+		display: inline-block;
+		color: #212226;
+		font-size: 2.5em;
+		padding: .625em 3% .4em 0;
+	}
+	
+	#hamitems {
+		display: none;
+	}
+	
+	#navright input:checked ~ #hamitems {
+		display: block;
+	}
+	
+	#hamburger {
+		display: none;
+	}
+	
+}
+
+
+/*======= Small Devices =======*/
+
+@media only screen and (min-width: 576px) {
+
+	header h1 {
+		font-size: 1.5em;
+	}
+
+	.center figcaption h2 {
+		font-size: 2.5em;
+		margin: 0 0 .7em;
+	}
+
+	footer nav li a {
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+
+/*----About Page----*/
+
+	.abtleft h2 {
+		font-size: 4em;
+		padding: 0 30% .5em 0;
+	}
+
+	article ul li {
+		text-indent: 15%;
+	}
+}
+
+
+/*======= Medium Devices =======*/
+
+@media only screen and (min-width: 768px) {
+
+	#hamitems {
+		padding: 2em 0 1em;
+		display: flex;
+	}
+
+	#hamitems a {
+		font-weight: bolder;
+		color: #265954;
+		flex-grow: 1;
+		flex-basis: 0;
+		justify-content: flex-end;
+	}
+
+	#navright label, #hamburger {
+		display: none;
+	}
+
+	#navright {
+		padding: .2em 2.5%;
+	}
+
+	header h1 {
+		clear: none;
+		text-indent: .7em;
+		padding: 1em .125% 0;
+	}
+
+	.center img {
+		padding: 0 10%;
+	}
+
+	.center figcaption h2 {
+		font-size: 2.625em;
+		padding: 0;
+		margin: 0 0 .5em;
+	}
+
+	footer {
+		background-color: #265954;
+	}
+
+	footer nav ul li {
+		padding: .25em 2.52%;
+		display: inline-block;
+	}
+
+	footer nav li a {
+		font-size: 1em;
+	}
+
+	footer p {
+		padding: .5em .75% 0;
+	}
+
+	.byline li {
+		font-size: .8em;
+		display: inline-block;
+		line-height: .6%;
+	}
+
+	.byline li:not(:last-child):after {
+		display: contents;
+		content: "•";
+	}
+	
+/*----About Page----*/
+
+	.abtleft {
+		display: inline-block;
+		clear: both;
+		width: 35%;
+		text-align: right;
+	}
+
+	.abtright {
+		display: inline-block;
+		width: 60%;
+	}
+
+	.abtleft h2 {
+		font-size: 4.15em;
+		padding: 0 0 .5em;
+	}
+
+	.abtleft p {
+		padding: 0 .5% 1.563em 35%;
+		font-size: 1.063em;
+	}
+
+	.abtright article {
+		padding: .5em 18% .75em .5%;
+	}
+
+	.abtright article p {
+		padding: 1em 0 .5em;
+	}
+
+	article ul li {
+		text-indent: 0;
+	}
+}
+
+
+/*======= Large Devices =======*/
+
+@media only screen and (min-width: 992px) {
+
+	header h1 {
+		font-size: 1.875em;
+		text-indent: 0;
+	}
+
+	.center figcaption h2 {
+		font-size: 3em;
+	}
+
+	footer {
+		height: 2.4em;
+		padding: .4em 0 0;
+	}
+
+	footer p {
+		font-size: .5em;
+		padding: .95em .75% 0;
+	}
+
+	footer nav li a {
+		font-size: 1.15em;
+	}
+
+	.byline li {
+		font-size: .875em;
+		line-height: .5%;
+	}
+		
+/*----About Page----*/
+
+	.abtleft h2 {
+		font-size: 4.5em;
+	}
+
+	.abtright article {
+		padding: 1em 27% .75em .5%;
+	}
+
+	article p em {
+		font-size: 1.32em;
+	}
+}
+
+
+/*======= Extra Lg Devices =======*/
+
+@media only screen and (min-width: 1200px) {
+
+	#navright {
+		width: 85%;
+		font-size: 1em;
+		padding: 0 3%;
+	}
+
+	header h1 {
+		font-size: 2.063em;
+		padding: 0 .05% 0;
+		text-indent: -1em;
+	}
+
+	.center figcaption h2 {
+		font-size: 3.5em;
+	}
+
+	footer {
+		height: 2.8em;
+	}
+
+	footer nav li a {
+		font-size: 1.5em;
+	}
+
+	footer p {
+		font-size: .6em;
+	}
+
+	.byline li {
+		font-size: 1.063em;
+		line-height: .6%;
+	}
+		
+/*----About Page----*/
+
+	.abtleft h2 {
+		font-size: 4.75em;
+	}
+
+	.abtleft p {
+		padding: 0 .5% 1.563em 45%;
+		font-size: 1.188em;
+		letter-spacing: .04em;
+		line-height: 240%;
+	}
+
+	.abtright article {
+		padding: 2.25em 23% 2em 1.25%;
+	}
+
+	.abtright article p {
+		font-size: 1.188em;
+		line-height: 160%;
+		padding: 1em 0 .7em;
+	}
+
+	article ul li {
+		font-size: 1.1em;
+		line-height: 110%;
+		padding: 0 0 .3em;
+		text-indent: 15%;
+	}
+
+	article p em {
+		font-size: 1.5em;
+	}
+}
