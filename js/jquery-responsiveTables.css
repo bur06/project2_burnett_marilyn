@@ -7,7 +7,8 @@ table.responsiveTable {
   width:100%;
   height:100%;
   text-align:center;
-  color:#666;
+	font-family: 'Open Sans', sans-serif;
+  color:#212226;
 }
 
 table.responsiveTable th, table.responsiveTable td {
@@ -17,14 +18,13 @@ table.responsiveTable th, table.responsiveTable td {
 }
 
 table.responsiveTable thead tr th {
-  color:#fff;
-  background:#808080;
-  border-left:1px solid #fff;
-  border-bottom:1px solid #fff;
+  color:#ffffff;
+  background:#ffffff;
+  border:1px solid #ffffff;
 }
 
 table.responsiveTable tbody tr.total th {
-  color:#222;
+  color:#212226;
 }
 
 table.responsiveTable thead th:first-child {
@@ -45,21 +45,22 @@ table.responsiveTable tbody tr.total td:last-child {
 
 table.responsiveTable tbody td, 
 table.responsiveTable tbody th {
-  background:#F2F2F2;
-  border-left:1px solid #fff;
-  border-top:1px solid #fff;
+  background:#ffffff;
+  border:1px solid #ffffff;
+  font-size: smaller;
 }
 
 table.responsiveTable tbody th {
-  color:#404040;
-  background:#F2F2F2;
+  color:#265954;
+  font-weight: bolder;
+  background:#ffffff;
 }
 
 table.responsiveTable tbody th.odd, table.responsiveTable tbody td.odd {
-  background:#E6E6E6;
+  background:#ffffff;
 }
 
 table.responsiveTable tbody tr.total th, 
 table.responsiveTable tbody tr.total td {
-  background:#ccc;
+  background:#ffffff;
 }
