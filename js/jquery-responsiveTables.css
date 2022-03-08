@@ -18,7 +18,9 @@ table.responsiveTable th, table.responsiveTable td {
 }
 
 table.responsiveTable thead tr th {
-  color:#ffffff;
+  color:#265954;
+  font-weight: bolder;
+  font-size: smaller;
   background:#ffffff;
   border:1px solid #ffffff;
 }
@@ -48,12 +50,23 @@ table.responsiveTable tbody th {
   background:#ffffff;
   border:1px solid #ffffff;
   font-size: smaller;
+  background-color: red;
+}
+
+table.responsiveTable tbody td {
+  font-size: x-small;
+  font-weight: bold;
+  text-align: left;
+  padding: 0 1.5%;
 }
 
 table.responsiveTable tbody th {
   color:#265954;
   font-weight: bolder;
   background:#ffffff;
+  background-color: yellow;
+  text-align: right;
+  padding: 1em 1%;
 }
 
 table.responsiveTable tbody th.odd, table.responsiveTable tbody td.odd {

@@ -70,9 +70,9 @@ header h1 {
 }
 
 header a:hover {
-	opacity: 50%;
-	font-size: .9em;
+	opacity: 35%;
 	font-weight: bolder;
+	font-stretch: extra-expanded;
 }
 
 .container {
@@ -119,7 +119,7 @@ p {
 	text-align: right;
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
-	font-size: .875em;
+	font-size: .938em;
 }
 
 
@@ -138,6 +138,10 @@ p {
 	vertical-align: top;
 	padding: 0 4%;
 	margin: 0 0 .6em;
+}
+
+.eventmain {
+	margin: 3em 10%;
 }
 
 
@@ -375,7 +379,6 @@ Media Querries
 	}
 
 	#hamitems a {
-		font-weight: bolder;
 		color: #265954;
 		flex-grow: 1 1 auto;
 		flex-basis: 0;
