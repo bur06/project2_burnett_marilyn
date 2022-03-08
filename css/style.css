@@ -140,10 +140,6 @@ p {
 	margin: 0 0 .6em;
 }
 
-.eventmain {
-	margin: 3em 10%;
-}
-
 
 /*======= Footer Styling =======*/
 
@@ -216,6 +212,29 @@ footer ul li a:hover {
 	display: none;
 }
 
+
+/*=================================
+Events Page
+==================================*/
+
+.eventmain {
+	margin: 3em 8% 3em 0;
+}
+
+img[alt="Art Lesson"] {
+	/*Responsive JQTable Plugin cannot accept max-width per stackflow.com*/
+	vertical-align: middle;
+	border-radius: .25em;
+}
+
+img[alt="Dancing"] {
+	/*Responsive JQTable Plugin cannot accept max-width per stackflow.com*/
+	vertical-align: -7em;
+	border-radius: .25em;
+	
+}
+
+
 /*=================================
 About Page
 ==================================*/
@@ -283,6 +302,7 @@ article ul li {
 	clear: both;
 }
 
+
 /*=================================
 Media Querries
 ==================================*/
@@ -334,13 +354,6 @@ Media Querries
 		display: none;
 	}
 
-/*----Events Page----*/
-
-	img[alt="Art Lesson"] {
-		vertical-align: middle;
-		border-radius: .25em;
-	}
-	
 }
 
 
@@ -361,6 +374,7 @@ Media Querries
 		font-size: 1.5em;
 		font-weight: bold;
 	}
+	
 
 /*----About Page----*/
 
