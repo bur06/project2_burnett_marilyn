@@ -50,14 +50,14 @@ table.responsiveTable tbody th {
   background:#ffffff;
   border:1px solid #ffffff;
   font-size: smaller;
-  background-color: red;
 }
 
 table.responsiveTable tbody td {
   font-size: x-small;
   font-weight: bold;
   text-align: left;
-  padding: 0 1.5%;
+  padding: 0 1.5% 1em;
+  line-height: 150%;
 }
 
 table.responsiveTable tbody th {

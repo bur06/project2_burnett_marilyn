@@ -333,6 +333,13 @@ Media Querries
 	#hamburger {
 		display: none;
 	}
+
+/*----Events Page----*/
+
+	img[alt="Art Lesson"] {
+		vertical-align: middle;
+		border-radius: .25em;
+	}
 	
 }
 
