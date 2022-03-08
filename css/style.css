@@ -223,22 +223,28 @@ Events Page
 }
 
 img[alt="Art Lesson"] {
-	vertical-align: middle;
+	vertical-align: text-top;
 	border-radius: .25em;
 	max-width: 90%;
 }
 
 img[alt="Dancing"] {
-	vertical-align: -7em;
+	vertical-align: -9em;
 	border-radius: .25em;
 	padding: 1.35em 0 0;
-	max-width: 80%;
+	max-width: 65%;
 }
 
 img[alt="Adult Student"] {
 	vertical-align: text-top;
 	border-radius: .25em;
 	max-width: 35%;
+}
+
+img[alt="Card Game"] {
+	vertical-align: top;
+	border-radius: .25em;
+	max-width: 80%;
 }
 
 
