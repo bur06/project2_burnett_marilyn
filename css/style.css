@@ -217,21 +217,28 @@ footer ul li a:hover {
 Events Page
 ==================================*/
 
+/* Table is a Responsive JQ Plugin - not intended to be stacked */
 .eventmain {
 	margin: 3em 8% 3em 0;
 }
 
 img[alt="Art Lesson"] {
-	/*Responsive JQTable Plugin cannot accept max-width per stackflow.com*/
 	vertical-align: middle;
 	border-radius: .25em;
+	max-width: 90%;
 }
 
 img[alt="Dancing"] {
-	/*Responsive JQTable Plugin cannot accept max-width per stackflow.com*/
 	vertical-align: -7em;
 	border-radius: .25em;
-	
+	padding: 1.35em 0 0;
+	max-width: 80%;
+}
+
+img[alt="Adult Student"] {
+	vertical-align: text-top;
+	border-radius: .25em;
+	max-width: 35%;
 }
 
 
