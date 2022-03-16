@@ -321,6 +321,7 @@ Contact Page
 ==================================*/
 
 #contactwrap {
+	clear: both;
 	background-color: rgba(38, 89, 84, 30%);
 	max-width: 100%;
 	margin: 0;
@@ -343,26 +344,29 @@ Contact Page
 
 .contactform label {
 	font-family: 'Open Sans', sans-serif;
-	font-size: .75em;
+	font-size: .813em;
 	font-weight: bold;
+	text-align: right;
 }
 
 .contactname,
 .contactemail,
 .contactphone {
 	text-align: right;
+	margin-right: 15%;
 }
 
 .contactname input,
 .contactemail input,
 .contactphone input {
-	width: 60%;
+	text-align: left;
+	width: 65%;
 	margin: .5em 0;
 }
 
 .contactform input, textarea {
 	font-family: 'Open Sans', sans-serif;
-	font-size: .875em;
+	font-size: .75em;
 	text-align: left;
 	padding: .125em 2%;
 	border: .15em solid rgba(0, 0, 0, 20%);
@@ -388,8 +392,8 @@ Contact Page
 .contactsubmit input {
 	background: #ffffff;
 	border: .15em solid rgb(38, 89, 84);
-	padding: .3em 4%;
-	font-size: .75em;
+	padding: .3em 10%;
+	font-size: .813em;
 	font-weight: bold;
 	color: #265954;
 	letter-spacing: .08em;
@@ -504,38 +508,6 @@ Media Querries
 
 /*------Contact Page------*/
 
-.contacttext p {
-	font-size: .938em;
-	padding: 3em 10%;
-}
-
-.contactform {
-	margin: 0 10% 4em;
-}
-
-.contactform label {
-	font-size: .875em;
-}
-
-.contactname,
-.contactemail,
-.contactphone {
-	padding-right: 16%;
-}
-
-.contactinquiry {
-	margin: 1.5em 0 1.25em;
-}
-
-.contactform textarea {
-	font-size: .875em;
-}
-
-.contactsubmit input {
-	padding: .4em 9%;
-	font-size: .875em;
-}
-
 
 /*======= Medium Devices =======*/
 
@@ -646,34 +618,6 @@ Media Querries
 
 /*------Contact Page------*/
 
-.contacttext p {
-	font-size: 1em;
-}
-
-.contactform label {
-	font-size: .938em;
-}
-
-.contactname input,
-.contactemail input,
-.contactphone input {
-	margin: .58em 0;
-}
-
-.contactinquiry {
-	margin: 1.7em 0 1.5em;
-}
-
-.contactform textarea {
-	font-size: .938em;
-}
-
-.contactsubmit input {
-	padding: .5em 8%;
-	font-size: .938em;
-}
-
-
 /*======= Large Devices =======*/
 
 @media only screen and (min-width: 992px) {
@@ -725,32 +669,6 @@ Media Querries
 
 /*------Contact Page------*/
 
-.contacttext p {
-	font-size: 1em;
-}
-
-.contactform label {
-	font-size: .938em;
-}
-
-.contactname input,
-.contactemail input,
-.contactphone input {
-	margin: .58em 0;
-}
-
-.contactinquiry {
-	margin: 1.7em 0 1.5em;
-}
-
-.contactform textarea {
-	font-size: .938em;
-}
-
-.contactsubmit input {
-	padding: .5em 8%;
-	font-size: .938em;
-}
 
 
 
