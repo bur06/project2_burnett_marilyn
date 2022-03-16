@@ -321,10 +321,9 @@ Contact Page
 ==================================*/
 
 #contactwrap {
-	clear: both;
 	background-color: rgba(38, 89, 84, 30%);
 	max-width: 100%;
-	margin: 0 auto;
+	margin: 0;
 	height: auto;
 	overflow: auto;
 }
@@ -352,19 +351,20 @@ Contact Page
 .contactemail,
 .contactphone {
 	text-align: right;
-	padding-right: 8%;
 }
 
 .contactname input,
 .contactemail input,
 .contactphone input {
-	width: 70%;
+	width: 60%;
 	margin: .5em 0;
 }
 
 .contactform input, textarea {
 	font-family: 'Open Sans', sans-serif;
 	font-size: .875em;
+	text-align: left;
+	padding: .125em 2%;
 	border: .15em solid rgba(0, 0, 0, 20%);
 	border-radius: 5%;
 }
@@ -382,13 +382,13 @@ Contact Page
 	font-size: .75em;
 	border-radius: 1%;
 	max-width: 100%;
-	padding: .75em;
+	padding: .75em 2.5%;
 }
 
 .contactsubmit input {
 	background: #ffffff;
 	border: .15em solid rgb(38, 89, 84);
-	padding: .3em 2em;
+	padding: .3em 4%;
 	font-size: .75em;
 	font-weight: bold;
 	color: #265954;
@@ -398,10 +398,8 @@ Contact Page
 .contactsubmit input:hover {
 	background: rgba(38, 89, 84, 20%);
 	border: .2em solid rgb(38, 89, 84, 45%);
-	font-size: .875em;
 	text-transform: uppercase;
 	font-weight: bolder;
-	padding: .15em 2em;
 }
 
 .contactsubmit input:active {
@@ -409,6 +407,12 @@ Contact Page
 	border: .2em solid #265954;
 	color: #ffffff;
 	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+.contactftr {
+	background-color: rgba(38, 89, 84, 30%);
+	margin: 0;
 }
 
 
@@ -485,7 +489,7 @@ Media Querries
 	}
 	
 
-/*----About Page----*/
+/*-------About Page-------*/
 
 	.abtleft h2 {
 		font-size: 4em;
@@ -495,6 +499,41 @@ Media Querries
 	article ul li {
 		text-indent: 15%;
 	}
+}
+	
+
+/*------Contact Page------*/
+
+.contacttext p {
+	font-size: .938em;
+	padding: 3em 10%;
+}
+
+.contactform {
+	margin: 0 10% 4em;
+}
+
+.contactform label {
+	font-size: .875em;
+}
+
+.contactname,
+.contactemail,
+.contactphone {
+	padding-right: 16%;
+}
+
+.contactinquiry {
+	margin: 1.5em 0 1.25em;
+}
+
+.contactform textarea {
+	font-size: .875em;
+}
+
+.contactsubmit input {
+	padding: .4em 9%;
+	font-size: .875em;
 }
 
 
@@ -566,7 +605,8 @@ Media Querries
 		content: "•";
 	}
 	
-/*----About Page----*/
+
+/*-------About Page-------*/
 
 	.abtleft {
 		display: inline-block;
@@ -602,6 +642,36 @@ Media Querries
 		text-indent: 0;
 	}
 }
+	
+
+/*------Contact Page------*/
+
+.contacttext p {
+	font-size: 1em;
+}
+
+.contactform label {
+	font-size: .938em;
+}
+
+.contactname input,
+.contactemail input,
+.contactphone input {
+	margin: .58em 0;
+}
+
+.contactinquiry {
+	margin: 1.7em 0 1.5em;
+}
+
+.contactform textarea {
+	font-size: .938em;
+}
+
+.contactsubmit input {
+	padding: .5em 8%;
+	font-size: .938em;
+}
 
 
 /*======= Large Devices =======*/
@@ -635,8 +705,9 @@ Media Querries
 		font-size: .875em;
 		line-height: .5%;
 	}
-		
-/*----About Page----*/
+	
+
+/*-------About Page-------*/
 
 	.abtleft h2 {
 		font-size: 4.5em;
@@ -650,6 +721,37 @@ Media Querries
 		font-size: 1.32em;
 	}
 }
+	
+
+/*------Contact Page------*/
+
+.contacttext p {
+	font-size: 1em;
+}
+
+.contactform label {
+	font-size: .938em;
+}
+
+.contactname input,
+.contactemail input,
+.contactphone input {
+	margin: .58em 0;
+}
+
+.contactinquiry {
+	margin: 1.7em 0 1.5em;
+}
+
+.contactform textarea {
+	font-size: .938em;
+}
+
+.contactsubmit input {
+	padding: .5em 8%;
+	font-size: .938em;
+}
+
 
 
 /*======= Extra Lg Devices =======*/
@@ -688,8 +790,9 @@ Media Querries
 		font-size: 1.063em;
 		line-height: .6%;
 	}
-		
-/*----About Page----*/
+	
+
+/*-------About Page-------*/
 
 	.abtleft h2 {
 		font-size: 4.75em;
