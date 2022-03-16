@@ -508,6 +508,44 @@ Media Querries
 
 /*------Contact Page------*/
 
+.contacttext p {
+	font-size: .938em;
+}
+
+.contactform label {
+	font-size: .875em;
+}
+
+.contactname,
+.contactemail,
+.contactphone {
+	margin-right: 20%;
+}
+
+.contactname input,
+.contactemail input,
+.contactphone input {
+	margin: .6em 0;
+}
+
+.contactform input, textarea {
+	font-size: .813em;
+	padding: .135em 2%;
+}
+
+.contactinquiry {
+	margin: 1.55em 0 1.25em;
+}
+
+.contactform textarea {
+	font-size: .813em;
+}
+
+.contactsubmit input {
+	padding: .4em 9%;
+	font-size: .875em;
+}
+
 
 /*======= Medium Devices =======*/
 
@@ -618,6 +656,45 @@ Media Querries
 
 /*------Contact Page------*/
 
+.contacttext p {
+	font-size: 1em;
+}
+
+.contactform label {
+	font-size: .938em;
+}
+
+.contactname,
+.contactemail,
+.contactphone {
+	margin-right: 23%;
+}
+
+.contactname input,
+.contactemail input,
+.contactphone input {
+	margin: .7em 0;
+}
+
+.contactform input, textarea {
+	font-size: .875em;
+	padding: .137em 2%;
+}
+
+.contactinquiry {
+	margin: 1.65em 0 1.3em;
+}
+
+.contactform textarea {
+	font-size: .875em;
+}
+
+.contactsubmit input {
+	padding: .5em 7%;
+	font-size: .938em;
+}
+
+
 /*======= Large Devices =======*/
 
 @media only screen and (min-width: 992px) {
@@ -665,11 +742,47 @@ Media Querries
 		font-size: 1.32em;
 	}
 }
-	
+
 
 /*------Contact Page------*/
 
+.contacttext p {
+	font-size: 1.063em;
+}
 
+.contactform label {
+	font-size: 1em;
+}
+
+.contactname,
+.contactemail,
+.contactphone {
+	margin-right: 25%;
+}
+
+.contactname input,
+.contactemail input,
+.contactphone input {
+	margin: .72em 0;
+}
+
+.contactform input, textarea {
+	font-size: .938em;
+	padding: .143em 2%;
+}
+
+.contactinquiry {
+	margin: 1.7em 0 1.5em;
+}
+
+.contactform textarea {
+	font-size: .938em;
+}
+
+.contactsubmit input {
+	padding: .6em 6%;
+	font-size: 1em;
+}
 
 
 /*======= Extra Lg Devices =======*/
@@ -743,4 +856,46 @@ Media Querries
 	article p em {
 		font-size: 1.5em;
 	}
+}
+
+
+/*------Contact Page------*/
+
+.contacttext p {
+	font-size: 1.125em;
+	text-align: center;
+}
+
+.contactform label {
+	font-size: 1.063em;
+}
+
+.contactname,
+.contactemail,
+.contactphone {
+	margin: 0 26% 0 8%;
+}
+
+.contactname input,
+.contactemail input,
+.contactphone input {
+	margin: .73em 0;
+}
+
+.contactform input, textarea {
+	font-size: 1em;
+	padding: .15em 2%;
+}
+
+.contactinquiry {
+	margin: 1.8em 0 1.45em;
+}
+
+.contactform textarea {
+	font-size: 1em;
+}
+
+.contactsubmit input {
+	padding: .6em 5%;
+	font-size: 1.063em;
 }
