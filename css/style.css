@@ -317,6 +317,23 @@ article ul li {
 
 
 /*=================================
+Contact Page
+==================================*/
+
+.contacttext p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .75em;
+	line-height: 160%;
+	padding: 2em 10% 4em;
+}
+
+.contactform {
+	margin: 0 10% 3em;
+	text-align: left;
+}
+
+
+/*=================================
 Media Querries
 ==================================*/
 
