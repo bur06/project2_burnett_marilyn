@@ -332,10 +332,39 @@ Contact Page
 	text-align: center;
 }
 
+.contactform label {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .75em;
+	font-weight: bold;
+}
+
+.contactname,
+.contactemail,
+.contactphone {
+	text-align: right;
+	padding-right: 8%;
+}
+
+.contactname input,
+.contactemail input,
+.contactphone input {
+	width: 70%;
+	margin: .5em 0;
+}
+
 .contactform input, textarea {
-	border: .13em solid rgba(0, 0, 0, 20%);
-	border-radius: 5%;
+	font-family: 'Open Sans', sans-serif;
 	font-size: .875em;
+	border: .15em solid rgba(0, 0, 0, 20%);
+	border-radius: 5%;
+}
+
+.contactform input:hover, textarea:hover {
+	border: .13em solid #000000;
+}
+
+.contactinquiry {
+	margin: 1.5em 0 .75em;
 }
 
 .contactform textarea {
@@ -346,28 +375,29 @@ Contact Page
 	padding: .75em;
 }
 
-.contactname,
-.contactemail,
-.contactphone {
-	text-align: right;
-	padding-right: 8%
-}
-
-.contactname input,
-.contactemail input,
-.contactphone input {
-	width: 70%;
-	margin: .5em 0;
-}
-
-.contactinfo {
-	font-family: 'Open Sans', sans-serif;
+.contactsubmit input {
+	background: rgba(38, 89, 84, 05%);
+	border: .15em solid rgb(38, 89, 84);
+	padding: .3em 2em;
 	font-size: .75em;
 	font-weight: bold;
+	color: #265954;
+	letter-spacing: .08em;
 }
 
-.contactinquiry {
-	margin: 1.5em 0;
+.contactsubmit input:hover {
+	background: rgba(38, 89, 84, 35%);
+	border: .2em solid rgb(38, 89, 84, 35%);
+	font-size: .875em;
+	font-weight: bolder;
+	padding: .15em 2em;
+}
+
+.contactsubmit input:active {
+	background: #265954;
+	border: .2em solid #265954;
+	color: #ffffff;
+	font-weight: bolder;
 }
 
 
