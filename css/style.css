@@ -320,9 +320,19 @@ article ul li {
 Contact Page
 ==================================*/
 
+#contactwrap {
+	clear: both;
+	background-color: rgba(38, 89, 84, 30%);
+	max-width: 100%;
+	margin: 0 auto;
+	height: auto;
+	overflow: auto;
+}
+
 .contacttext p {
 	font-family: 'Open Sans', sans-serif;
-	font-size: .813em;
+	font-size: .875em;
+	font-weight: bold;
 	line-height: 160%;
 	padding: 2em 10% 3em;
 }
@@ -364,7 +374,7 @@ Contact Page
 }
 
 .contactinquiry {
-	margin: 1.5em 0 .75em;
+	margin: 1.5em 0 1em;
 }
 
 .contactform textarea {
@@ -376,7 +386,7 @@ Contact Page
 }
 
 .contactsubmit input {
-	background: rgba(38, 89, 84, 05%);
+	background: #ffffff;
 	border: .15em solid rgb(38, 89, 84);
 	padding: .3em 2em;
 	font-size: .75em;
@@ -386,9 +396,10 @@ Contact Page
 }
 
 .contactsubmit input:hover {
-	background: rgba(38, 89, 84, 35%);
-	border: .2em solid rgb(38, 89, 84, 35%);
+	background: rgba(38, 89, 84, 20%);
+	border: .2em solid rgb(38, 89, 84, 45%);
 	font-size: .875em;
+	text-transform: uppercase;
 	font-weight: bolder;
 	padding: .15em 2em;
 }
