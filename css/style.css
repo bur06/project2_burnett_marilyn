@@ -329,6 +329,16 @@ Contact/Form Page
 	overflow: auto;
 }
 
+#contactwrap h2 {
+	font-size: 3.875em;
+	font-weight: bolder;
+	text-align: right;
+	text-shadow: .04em -.02em .02em #ffffff, -.04em .03em .01em #ffffff;
+	margin: 0;
+	line-height: 55%;
+	padding: 0 5% .2em;
+}
+
 .contacttext p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: .875em;
@@ -336,11 +346,11 @@ Contact/Form Page
 	font-style: italic;
 	text-align: center;
 	line-height: 160%;
-	padding: 2.5em 10%;
+	padding: 1.5em 10%;
 }
 
 .contactform {
-	margin: 0 10% 3em;
+	margin: 0 10% 2em;
 	text-align: center;
 }
 
@@ -589,12 +599,6 @@ Media Querries
 		content: "•";
 	}
 
-	.contactftr {
-		background-color: rgb(38, 89, 84);
-		margin: 0;
-	}
-
-	
 
 /*-------About Page-------*/
 
@@ -632,6 +636,14 @@ Media Querries
 		text-indent: 0;
 	}
 }
+
+
+/*------Contact Page------*/
+
+	.contactftr {
+		background-color: rgb(38, 89, 84);
+		margin: 0;
+	}
 
 
 /*======= Large Devices =======*/
