@@ -866,7 +866,7 @@ Media Querries
 }
 
 
-/*------Contact Page------*/
+/*------Contact/Form Page------*/
 
 	.contacttext p {
 		font-size: 1.125em;
@@ -904,4 +904,18 @@ Media Querries
 	.contactsubmit input {
 		padding: .6em 5%;
 		font-size: 1.063em;
+	}
+
+	.replytext h1 {
+		font-size: 1em;
+		font-weight: bold;
+		color: #212226;
+		text-align: center;
+	}
+
+	.replytext p {
+		font-size: 1em;
+		color: #212226;
+		padding: .25em 0;
+		text-align: center;
 	}

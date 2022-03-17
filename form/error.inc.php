@@ -22,21 +22,6 @@
     <body>
       <div class="container">
         <header>
-          <figure class="navleft">
-          <a href="index.html"><img src="images/sunlogo.svg" alt="ASC Logo" title="Sun Logo" width="140"/></a>
-          </figure>
-          <nav id="navright">
-            <label for="hamburger">&#9776;</label>
-            <input type="checkbox" id="hamburger"/>
-            <div id="hamitems">
-              <a href="index.html">HOME</a>
-              <a href="events.html">EVENTS</a>
-              <a href="about.html">ABOUT</a>
-              <a href="form.html">CONTACT</a>
-            </div>
-          </nav>
-
-          <h1>Arlington Senior Center</h1>
         </header>
             
         <main>
@@ -60,22 +45,6 @@
         </main>
 
         <footer>
-          <nav class="ftrnav">
-            <ul>
-              <li><a href="calendar.html">Calendar</a></li>
-              <li><a href="fitness.html">Fitness</a></li>
-              <li><a href="learning.html">Learning</a></li>
-              <li><a href="policies.html">Policies</a></li>
-              <li><a href="social.html">Social</a></li>
-            </ul>            
-          </nav>
-          <p>&copy; 2022 ASC</p>
-          <ul class="byline">
-            <li>&nbsp;&nbsp;Arlington Senior Center&nbsp;&nbsp;</li>
-            <li>&nbsp;&nbsp;6265 Chester Street&nbsp;&nbsp;</li>
-            <li>&nbsp;&nbsp;Arlington, Tennessee 38002&nbsp;&nbsp;</li>
-            <li>&nbsp;&nbsp;<a href="tel:9018677698">(901) 867&#8209;7698</a>&nbsp;&nbsp;</li>
-          </ul>
         </footer>
       </div>   
 
