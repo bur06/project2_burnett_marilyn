@@ -906,16 +906,15 @@ Media Querries
 		font-size: 1.063em;
 	}
 
-	.replytext h1 {
+	.replytext {
+		font-family: 'Open Sans', sans-serif;
 		font-size: 1em;
-		font-weight: bold;
 		color: #212226;
 		text-align: center;
+		margin: 2em 8%;
+		padding: .5em 0;
 	}
 
-	.replytext p {
-		font-size: 1em;
-		color: #212226;
-		padding: .25em 0;
-		text-align: center;
+	.replytext h1 {
+		font-weight: bold;
 	}

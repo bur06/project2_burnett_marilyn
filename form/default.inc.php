@@ -22,6 +22,21 @@
   <body>
     <div class="container">
       <header>
+          <figure class="navleft">
+          <a href="index.html"><img src="images/sunlogo.svg" alt="ASC Logo" title="Sun Logo" width="140"/></a>
+          </figure>
+          <nav id="navright">
+              <label for="hamburger">&#9776;</label>
+              <input type="checkbox" id="hamburger"/>
+              <div id="hamitems">
+                  <a href="index.html">HOME</a>
+                  <a href="events.html">EVENTS</a>
+                  <a href="about.html">ABOUT</a>
+                  <a href="form.html">CONTACT</a>
+              </div>
+          </nav>
+
+          <h1>Arlington Senior Center</h1>
       </header>
       
       <main>
