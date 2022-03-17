@@ -1,103 +1,72 @@
-<style type="text/css">
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>ASC Error Response</title>
 
-.container {
-  max-width: 1920px;
-  margin: 0 auto;
-  min-height: 100vh;
-  object-fit: cover;
-  z-index: 90;
-}
+      <!-- link to favicon -->
+      <link rel="icon" href="images/favicon.ico">
 
-.replytext {
-  text-align: center;
-  margin-top: 170px;
-}
+      <!-- link to sytle.css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-body {
-  font-family: 'Open Sans', helvetica, sans-serif;
-  min-height: 100vh;
-  object-fit: cover;
-}
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+  </head>
 
-header a:hover {
-  opacity: 50%;
-  font-weight: bolder;
-}
+  <!-- Main Content -->
+  <body>
+    <div class="container">
+      <header>
+          <figure class="navleft">
+          <a href="index.html"><img src="images/sunlogo.svg" alt="ASC Logo" title="Sun Logo" width="140"/></a>
+          </figure>
+          <nav id="navright">
+              <label for="hamburger">&#9776;</label>
+              <input type="checkbox" id="hamburger"/>
+              <div id="hamitems">
+                  <a href="index.html">HOME</a>
+                  <a href="events.html">EVENTS</a>
+                  <a href="about.html">ABOUT</a>
+                  <a href="form.html">CONTACT</a>
+              </div>
+          </nav>
 
-header {
-  position: absolute;
-  min-width: 100%;
-  top: 0;
-  z-index: 99;
-  margin: 0 auto;
-  padding: 25px;
-  background-color: rgba(39, 95, 129, 1);
-}
+          <h1>Arlington Senior Center</h1>
+      </header>
+      
+      <main>
+        <div class="container">
+          <div class="replytext">
+            <h1>Oops! Something went wrong with your submission.</h1>
+            <p>Please try again.</p>
+          </div>
+        </div>
+      </main>
 
-.left-side {
-  display: inline-block;
-  width: 15%;
-  opacity: 90%;
-  margin-left: 10px;
-}
+      <footer>
+          <nav class="ftrnav">
+              <ul>
+                  <li><a href="calendar.html">Calendar</a></li>
+                  <li><a href="fitness.html">Fitness</a></li>
+                  <li><a href="learning.html">Learning</a></li>
+                  <li><a href="policies.html">Policies</a></li>
+                  <li><a href="social.html">Social</a></li>
+              </ul>            
+          </nav>
+          <p>&copy; 2022 ASC</p>
+          <ul class="byline">
+              <li>&nbsp;&nbsp;Arlington Senior Center&nbsp;&nbsp;</li>
+              <li>&nbsp;&nbsp;6265 Chester Street&nbsp;&nbsp;</li>
+              <li>&nbsp;&nbsp;Arlington, Tennessee 38002&nbsp;&nbsp;</li>
+              <li>&nbsp;&nbsp;<a href="tel:9018677698">(901) 867&#8209;7698</a>&nbsp;&nbsp;</li>
+          </ul>
+      </footer>
+    </div>   
 
-.right-side {
-  display: inline-block;
-  width: 82%;
-  margin-top: 15px;
-  vertical-align: top;
-  text-align: right;
-}
-
-nav ul {
-  list-style: none;
-  white-space: nowrap;
-}
-
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a {
-  text-decoration: none;
-  opacity: 90%;
-  padding: 0px 32px;
-  font-size: 1.1111em;
-  font-weight: bold;
-}
-
-.navcolor li a{
-  color: white;
-}
-</style>
-
-
-<header>
-  <div class="left-side">
-    <a href="index.html"><img src="images/ltrmark_white.gif" alt="Quarry Logo" width="60"/></a>
-  </div>
-
-  <nav class="right-side">
-    <ul class="navcolor">
-      <li><a href="solutions.html">SOLUTIONS</a></li>
-      <li><a href="services.html">SERVICES</a></li>
-      <li><a href="company.html">COMPANY</a></li>
-      <li><a href="support.html">SUPPORT</a></li>
-      <li><a href="tel:+15551234567">555-123-4567</a></li>
-    </ul>
-  </nav>
-</header>
-
-
-<div class="container">
-  <div class="replytext">
-    <h1>Oops! Something went wrong with your submission.</h1>
-    <p>Please try again.</p>
-  </div>
-</div>
+  </body>
+</html>
