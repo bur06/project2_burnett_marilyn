@@ -317,7 +317,7 @@ article ul li {
 
 
 /*=================================
-Contact Page
+Contact/Form Page
 ==================================*/
 
 #contactwrap {
@@ -333,8 +333,10 @@ Contact Page
 	font-family: 'Open Sans', sans-serif;
 	font-size: .875em;
 	font-weight: bold;
+	font-style: italic;
+	text-align: center;
 	line-height: 160%;
-	padding: 2em 10% 3em;
+	padding: 2.5em 10%;
 }
 
 .contactform {
@@ -353,14 +355,14 @@ Contact Page
 .contactemail,
 .contactphone {
 	text-align: right;
-	margin-right: 15%;
+	margin-right: 16%;
 }
 
 .contactname input,
 .contactemail input,
 .contactphone input {
 	text-align: left;
-	width: 65%;
+	width: 66%;
 	margin: .5em 0;
 }
 
@@ -392,7 +394,7 @@ Contact Page
 .contactsubmit input {
 	background: #ffffff;
 	border: .15em solid rgb(38, 89, 84);
-	padding: .3em 10%;
+	padding: .25em 6%;
 	font-size: .813em;
 	font-weight: bold;
 	color: #265954;
@@ -408,7 +410,7 @@ Contact Page
 
 .contactsubmit input:active {
 	background: #265954;
-	border: .2em solid #265954;
+	border: .15em solid #212226;
 	color: #ffffff;
 	font-weight: bolder;
 	text-transform: uppercase;
@@ -417,6 +419,19 @@ Contact Page
 .contactftr {
 	background-color: rgba(38, 89, 84, 30%);
 	margin: 0;
+}
+
+.replytext {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	color: #212226;
+	text-align: center;
+	margin: 2em 8%;
+	padding: .5em 0;
+}
+
+.replytext h1 {
+	font-weight: bold;
 }
 
 
@@ -503,47 +518,6 @@ Media Querries
 	article ul li {
 		text-indent: 15%;
 	}
-}
-	
-
-/*------Contact Page------*/
-
-.contacttext p {
-	font-size: .938em;
-}
-
-.contactform label {
-	font-size: .875em;
-}
-
-.contactname,
-.contactemail,
-.contactphone {
-	margin-right: 20%;
-}
-
-.contactname input,
-.contactemail input,
-.contactphone input {
-	margin: .6em 0;
-}
-
-.contactform input, textarea {
-	font-size: .813em;
-	padding: .135em 2%;
-}
-
-.contactinquiry {
-	margin: 1.55em 0 1.25em;
-}
-
-.contactform textarea {
-	font-size: .813em;
-}
-
-.contactsubmit input {
-	padding: .4em 9%;
-	font-size: .875em;
 }
 
 
@@ -658,48 +632,6 @@ Media Querries
 		text-indent: 0;
 	}
 }
-	
-
-/*------Contact Page------*/
-
-	.contacttext p {
-		font-size: 1em;
-	}
-
-	.contactform label {
-		font-size: .938em;
-	}
-
-	.contactname,
-	.contactemail,
-	.contactphone {
-		margin-right: 23%;
-	}
-
-	.contactname input,
-	.contactemail input,
-	.contactphone input {
-		margin: .7em 0;
-	}
-
-	.contactform input, textarea {
-		font-size: .875em;
-		padding: .137em 2%;
-	}
-
-	.contactinquiry {
-		margin: 1.65em 0 1.3em;
-	}
-
-	.contactform textarea {
-		font-size: .875em;
-	}
-
-	.contactsubmit input {
-		padding: .5em 7%;
-		font-size: .938em;
-	}
-
 
 
 /*======= Large Devices =======*/
@@ -749,47 +681,6 @@ Media Querries
 		font-size: 1.32em;
 	}
 }
-
-
-/*------Contact Page------*/
-
-	.contacttext p {
-		font-size: 1.063em;
-	}
-
-	.contactform label {
-		font-size: 1em;
-	}
-
-	.contactname,
-	.contactemail,
-	.contactphone {
-		margin-right: 25%;
-	}
-
-	.contactname input,
-	.contactemail input,
-	.contactphone input {
-		margin: .72em 0;
-	}
-
-	.contactform input, textarea {
-		font-size: .938em;
-		padding: .143em 2%;
-	}
-
-	.contactinquiry {
-		margin: 1.7em 0 1.5em;
-	}
-
-	.contactform textarea {
-		font-size: .938em;
-	}
-
-	.contactsubmit input {
-		padding: .6em 6%;
-		font-size: 1em;
-	}
 
 
 /*======= Extra Lg Devices =======*/
@@ -864,57 +755,3 @@ Media Querries
 		font-size: 1.5em;
 	}
 }
-
-
-/*------Contact/Form Page------*/
-
-	.contacttext p {
-		font-size: 1.125em;
-	}
-
-	.contactform label {
-		font-size: 1.063em;
-	}
-
-	.contactname,
-	.contactemail,
-	.contactphone {
-		margin: 0 26% 0 8%;
-	}
-
-	.contactname input,
-	.contactemail input,
-	.contactphone input {
-		margin: .73em 0;
-	}
-
-	.contactform input, textarea {
-		font-size: 1em;
-		padding: .15em 2%;
-	}
-
-	.contactinquiry {
-		margin: 1.8em 0 1.45em;
-	}
-
-	.contactform textarea {
-		font-size: 1em;
-	}
-
-	.contactsubmit input {
-		padding: .6em 5%;
-		font-size: 1.063em;
-	}
-
-	.replytext {
-		font-family: 'Open Sans', sans-serif;
-		font-size: 1em;
-		color: #212226;
-		text-align: center;
-		margin: 2em 8%;
-		padding: .5em 0;
-	}
-
-	.replytext h1 {
-		font-weight: bold;
-	}

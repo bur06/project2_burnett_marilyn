@@ -21,6 +21,7 @@
     <!-- Main Content -->
     <body>
         <div class="container">
+            <header>
             </header>
 
 			<main>
