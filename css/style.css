@@ -105,7 +105,9 @@ h4 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.063em;
 	font-weight: bold;
-	padding: .8em 0 .25em;
+	line-height: 118%;
+	letter-spacing: .02em;
+	padding: .9em 0 .25em;
 }
 
 p {
@@ -242,29 +244,40 @@ Events Page
 }
 
 .events {
-	margin: 0 8% 1em;
+	margin: 0 8% 2em;
 }
 
 .events figure {
 	text-align: center;
 	border-radius: .25em;
-	padding: 1em 0 0;
 }
 
 img[alt="Creating"] {
 	max-width: 100%;
+	padding: 1em 0 0;
+}
+
+img[alt="Meal Prep"] {
+	display: none;
 }
 
 img[alt="Dancing"] {
 	max-width: 100%;
+	padding: 1em 0 0;
 }
 
 img[alt="Adult Student"] {
 	max-width: 100%;
+	padding: 1em 0 0;
+}
+
+img[alt="Light Weights"] {
+	display: none;
 }
 
 img[alt="Adults Stretching"] {
 	max-width: 100%;
+	padding: 1em 0 0;
 }
 
 
@@ -635,14 +648,12 @@ Media Querries
 /*------Events Page------*/
 
 	h3 {
-		letter-spacing: .02em;
 		padding: .75em 8% 0;
 	}
 
 	h4 {
+		letter-spacing: 0;
 		padding: .8em 8% .25em;
-		line-height: 118%;
-		letter-spacing: .02em;
 	}
 
 	p {
@@ -659,9 +670,11 @@ Media Querries
 
 	.eventspage h2 {
 		font-size: 4.15em;
+		padding: 0 5% .2em;
 	}
 
 	.events {
+		margin: 0 4% 1.5em;
 		display: flex;
 	}
 
@@ -678,7 +691,14 @@ Media Querries
 	}
 
 	img[alt="Creating"] {
+		max-width: 80%;
+		padding: .5em 0 0;
+	}
+
+	img[alt="Meal Prep"] {
+		display: unset;
 		max-width: 75%;
+		padding: .5em 0 0;
 	}
 
 	img[alt="Dancing"] {
@@ -688,9 +708,17 @@ Media Querries
 
 	img[alt="Adult Student"] {
 		max-width: 65%;
+		padding: .5em 0 0;
+	}
+
+	img[alt="Light Weights"] {
+		display: unset;
+		max-width: 85%;
+		padding: .5em 0 0;
 	}
 
 	img[alt="Adults Stretching"] {
+		display: none;
 		max-width: 85%;
 	}
 
@@ -779,6 +807,7 @@ Media Querries
 
 	.eventspage h2 {
 		font-size: 4.5em;
+		padding: 0 5% 0;
 	}
 
 
