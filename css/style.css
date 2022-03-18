@@ -98,14 +98,14 @@ h3 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.625em;
 	font-weight: bold;
-	padding: .25em 0;
+	padding: .75em 0 0;
 }
 
 h4 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1em;
+	font-size: 1.063em;
 	font-weight: bold;
-	padding: 1em 0 .5em;
+	padding: .8em 0 .25em;
 }
 
 p {
@@ -232,31 +232,31 @@ Events Page
 ==================================*/
 
 .eventmain {
-	margin: 2em 8% 2em;
+	margin: 1em 8% 2em;
 }
 
 img[alt="Creating"] {
 	border-radius: .25em;
 	max-width: 100%;
+	padding: 1em 0 0;
 }
 
 img[alt="Dancing"] {
-	vertical-align: text-top;
 	border-radius: .25em;
-	padding: 1.35em 0 0;
-	max-width: 60%;
+	max-width: 100%;
+	padding: 1em 0 0;
 }
 
 img[alt="Adult Student"] {
-	vertical-align: text-top;
 	border-radius: .25em;
-	max-width: 30%;
+	max-width: 100%;
+	padding: 1em 0 0;
 }
 
-img[alt="Card Game"] {
-	vertical-align: text-top;
+img[alt="Adults Stretching"] {
 	border-radius: .25em;
-	max-width: 70%;
+	max-width: 100%;
+	padding: 1em 0 0;
 }
 
 
