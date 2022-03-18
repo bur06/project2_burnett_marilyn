@@ -94,10 +94,24 @@ h2 {
 	color: #212226;
 }
 
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.625em;
+	font-weight: bold;
+	padding: .25em 0;
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.063em;
+	font-weight: bold;
+	padding: 1em 0 .5em;
+}
+
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
-	line-height: 150%;
+	line-height: 170%;
 	color: #212226;
 }
 
@@ -105,7 +119,7 @@ p {
 
 .navleft {
 	float: left;
-	width: 10%;
+	width: 8%;
 	vertical-align: top;
 	margin: 0;
 	padding: 0;
@@ -113,7 +127,7 @@ p {
 
 #navright {
 	float: right;
-	width: 80%;
+	width: 86%;
 	padding: .9em 2.5% 0 .1%;
 	vertical-align: top;
 	text-align: right;
@@ -217,7 +231,6 @@ footer ul li a:hover {
 Events Page
 ==================================*/
 
-/* Table is a Responsive JQ Plugin - not intended to be stacked */
 .eventmain {
 	margin: 2em 5% 2em 0;
 }
@@ -469,6 +482,7 @@ Media Querries
 		font-weight: bold;
 		text-decoration: none;
 		text-align: right;
+		/*background-color: rgba(255, 255, 255, 50%);*/
 	}
 	
 	#hamitems a:hover {
@@ -551,7 +565,12 @@ Media Querries
 		display: none;
 	}
 
+	.navleft {
+		width: 10%;
+	}
+
 	#navright {
+		width: 80%;
 		padding: .2em 2.5%;
 	}
 
