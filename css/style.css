@@ -103,7 +103,7 @@ h3 {
 
 h4 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.063em;
+	font-size: 1em;
 	font-weight: bold;
 	padding: 1em 0 .5em;
 }
@@ -111,7 +111,7 @@ h4 {
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
-	line-height: 170%;
+	line-height: 155%;
 	color: #212226;
 }
 
@@ -232,13 +232,12 @@ Events Page
 ==================================*/
 
 .eventmain {
-	margin: 2em 5% 2em 0;
+	margin: 2em 8% 2em;
 }
 
-img[alt="Art Lesson"] {
-	vertical-align: text-top;
+img[alt="Creating"] {
 	border-radius: .25em;
-	max-width: 90%;
+	max-width: 100%;
 }
 
 img[alt="Dancing"] {
@@ -297,7 +296,7 @@ About Page
 	padding: 0 6%;
 	font-size: 1em;
 	letter-spacing: .04em;
-	line-height: 200%;
+	line-height: 135%;
 	font-weight: bold;
 	font-style: italic;
 }
@@ -639,8 +638,9 @@ Media Querries
 	}
 
 	.abtleft p {
-		padding: 0 .5% 1.563em 35%;
+		padding: 0 .5% 1.563em 42%;
 		font-size: 1.063em;
+		line-height: 160%;
 	}
 
 	.abtright article {
@@ -704,6 +704,11 @@ Media Querries
 		font-size: 4.5em;
 	}
 
+	.abtleft p {
+		padding: 0 .5% 1.563em 50%;
+		line-height: 170%;
+	}
+
 	.abtright article {
 		padding: 1em 27% .75em .5%;
 	}
@@ -759,10 +764,9 @@ Media Querries
 	}
 
 	.abtleft p {
-		padding: 0 .5% 1.563em 45%;
+		padding: 0 .5% 1.563em 55%;
 		font-size: 1.188em;
 		letter-spacing: .04em;
-		line-height: 240%;
 	}
 
 	.abtright article {
