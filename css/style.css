@@ -96,7 +96,7 @@ h2 {
 
 h3 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.625em;
+	font-size: 1.5em;
 	font-weight: bold;
 	padding: .75em 0 0;
 }
@@ -231,7 +231,7 @@ footer ul li a:hover {
 Events Page
 ==================================*/
 
-.eventsmain h2 {
+.eventspage h2 {
 	font-size: 3.875em;
 	font-weight: bolder;
 	text-align: right;
@@ -540,7 +540,7 @@ Media Querries
 
 /*------Events Page------*/
 
-	.eventsmain h2 {
+	.eventspage h2 {
 		font-size: 4em;
 	}
 
@@ -635,7 +635,6 @@ Media Querries
 /*------Events Page------*/
 
 	h3 {
-		font-size: 1.5em;
 		letter-spacing: .02em;
 		padding: .75em 8% 0;
 	}
@@ -658,7 +657,7 @@ Media Querries
 		justify-content: space-around;
 	}
 
-	.eventsmain h2 {
+	.eventspage h2 {
 		font-size: 4.15em;
 	}
 
@@ -679,15 +678,16 @@ Media Querries
 	}
 
 	img[alt="Creating"] {
-		max-width: 85%;
+		max-width: 75%;
 	}
 
 	img[alt="Dancing"] {
-		max-width: 85%;
+		max-width: 75%;
+		display: none;
 	}
 
 	img[alt="Adult Student"] {
-		max-width: 75%;
+		max-width: 65%;
 	}
 
 	img[alt="Adults Stretching"] {
@@ -777,7 +777,7 @@ Media Querries
 	
 /*------Events Page------*/
 
-	.eventsmain h2 {
+	.eventspage h2 {
 		font-size: 4.5em;
 	}
 
@@ -843,7 +843,7 @@ Media Querries
 	
 /*------Events Page------*/
 
-	.eventsmain h2 {
+	.eventspage h2 {
 		font-size: 4.75em;
 	}
 
