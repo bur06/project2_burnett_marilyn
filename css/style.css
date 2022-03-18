@@ -331,6 +331,7 @@ About Page
 }
 
 .abtright article p {
+	line-height: 160%;
 	padding: 1em 0 .5em;
 }
 
@@ -350,16 +351,16 @@ article ul li {
 
 .abtmore {
 	font-family: 'Open Sans', sans-serif;
-	font-size: .938em;
-	line-height: 155%;
+	font-size: 1em;
+	line-height: 160%;
 	padding: 1em 0;
 }
 
 .abtmore > a {
 	display: block;
-	padding: .2em 2%;
+	padding: .3em 2%;
 	width: 39%;
-	margin: 1.3em 30% 3em;
+	margin: 1.3em 30% 2em;
 	text-align: center;
 	text-decoration: none;
 	color:#212226;
@@ -599,6 +600,17 @@ Media Querries
 	article ul li {
 		text-indent: 15%;
 	}
+
+	.abtmore {
+		padding: 1.25em 0;
+	}
+	
+	.abtmore > a {
+		padding: .3em 1%;
+		width: 23%;
+		margin: 1.3em 39% 2em;
+	}
+	
 }
 
 
@@ -790,6 +802,17 @@ Media Querries
 	article ul li {
 		text-indent: 0;
 	}
+
+	.abtmore {
+		padding: 1em 0;
+	}
+	
+	.abtmore > a {
+		padding: .2em .4%;
+		width: 31%;
+		margin: 1.3em 34% 2em;
+	}
+
 }
 
 
@@ -856,7 +879,6 @@ Media Querries
 
 	.abtleft p {
 		padding: 0 .5% 1.563em 50%;
-		line-height: 170%;
 	}
 
 	.abtright article {
@@ -866,6 +888,17 @@ Media Querries
 	article p em {
 		font-size: 1.32em;
 	}
+
+	.abtmore {
+		padding: 1.25em 0;
+	}
+	
+	.abtmore > a {
+		padding: .3em .5%;
+		width: 26%;
+		margin: 1.3em 35% 2em;
+	}
+
 }
 
 
@@ -936,13 +969,11 @@ Media Querries
 
 	.abtright article p {
 		font-size: 1.188em;
-		line-height: 160%;
 		padding: 1em 0 .7em;
 	}
 
 	article ul li {
 		font-size: 1.1em;
-		line-height: 110%;
 		padding: 0 0 .3em;
 		text-indent: 15%;
 	}
@@ -950,4 +981,16 @@ Media Querries
 	article p em {
 		font-size: 1.5em;
 	}
+
+	.abtmore {
+		font-size: 1.188em;
+		padding: 1.5em 0;
+	}
+	
+	.abtmore > a {
+		padding: .2em .5%;
+		width: 24%;
+		margin: 1.3em 40% 2em;
+	}
+
 }
