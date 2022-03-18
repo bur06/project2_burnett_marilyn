@@ -247,30 +247,24 @@ Events Page
 
 .events figure {
 	text-align: center;
+	border-radius: .25em;
+	padding: 1em 0 0;
 }
 
 img[alt="Creating"] {
-	border-radius: .25em;
 	max-width: 100%;
-	padding: 1em 0 0;
 }
 
 img[alt="Dancing"] {
-	border-radius: .25em;
 	max-width: 100%;
-	padding: 1em 0 0;
 }
 
 img[alt="Adult Student"] {
-	border-radius: .25em;
 	max-width: 100%;
-	padding: 1em 0 0;
 }
 
 img[alt="Adults Stretching"] {
-	border-radius: .25em;
 	max-width: 100%;
-	padding: 1em 0 0;
 }
 
 
@@ -495,7 +489,6 @@ Media Querries
 		font-weight: bold;
 		text-decoration: none;
 		text-align: right;
-		/*background-color: rgba(255, 255, 255, 50%);*/
 	}
 	
 	#hamitems a:hover {
@@ -641,8 +634,48 @@ Media Querries
 	
 /*------Events Page------*/
 
+	.eventsmain {
+		display: flex;
+		min-height: 100vh;
+		flex-flow: column wrap;
+		justify-content: space-between;
+	}
+
 	.eventsmain h2 {
 		font-size: 4.15em;
+	}
+
+	.events {
+		display: flex;
+	}
+
+	.eventscol1 {
+		flex: 1 8em;
+		padding: 0 10%;
+	}
+
+	.eventscol2 {
+		flex: 1 2em;
+	}
+
+	.eventscol3 {
+		flex: 1 1em;
+	}
+
+	img[alt="Creating"] {
+		max-width: 85%;
+	}
+
+	img[alt="Dancing"] {
+		max-width: 85%;
+	}
+
+	img[alt="Adult Student"] {
+		max-width: 75%;
+	}
+
+	img[alt="Adults Stretching"] {
+		max-width: 100%;
 	}
 
 
