@@ -634,11 +634,28 @@ Media Querries
 	
 /*------Events Page------*/
 
+	h3 {
+		font-size: 1.5em;
+		letter-spacing: .02em;
+		padding: .75em 8% 0;
+	}
+
+	h4 {
+		padding: .8em 8% .25em;
+		line-height: 118%;
+		letter-spacing: .02em;
+	}
+
+	p {
+		font-size: 1em;
+		padding: 0 8% .5em;
+	}
+
 	.eventsmain {
 		display: flex;
 		min-height: 100vh;
 		flex-flow: column wrap;
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 
 	.eventsmain h2 {
@@ -650,16 +667,15 @@ Media Querries
 	}
 
 	.eventscol1 {
-		flex: 1 8em;
-		padding: 0 10%;
+		flex: 1 auto;
 	}
 
 	.eventscol2 {
-		flex: 1 2em;
+		flex: 1 auto;
 	}
 
 	.eventscol3 {
-		flex: 1 1em;
+		flex: 1 auto;
 	}
 
 	img[alt="Creating"] {
@@ -675,7 +691,7 @@ Media Querries
 	}
 
 	img[alt="Adults Stretching"] {
-		max-width: 100%;
+		max-width: 85%;
 	}
 
 
