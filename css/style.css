@@ -543,7 +543,14 @@ Media Querries
 		font-size: 1.5em;
 		font-weight: bold;
 	}
-	
+
+
+/*------Events Page------*/
+
+	.eventsmain h2 {
+		font-size: 4em;
+	}
+
 
 /*-------About Page-------*/
 
@@ -631,6 +638,13 @@ Media Querries
 		content: "•";
 	}
 
+	
+/*------Events Page------*/
+
+	.eventsmain h2 {
+		font-size: 4.15em;
+	}
+
 
 /*-------About Page-------*/
 
@@ -710,7 +724,14 @@ Media Querries
 		font-size: .875em;
 		line-height: .5%;
 	}
+
 	
+/*------Events Page------*/
+
+	.eventsmain h2 {
+		font-size: 4.5em;
+	}
+
 
 /*-------About Page-------*/
 
@@ -769,7 +790,14 @@ Media Querries
 		font-size: 1.063em;
 		line-height: .6%;
 	}
+
 	
+/*------Events Page------*/
+
+	.eventsmain h2 {
+		font-size: 4.75em;
+	}
+
 
 /*-------About Page-------*/
 
