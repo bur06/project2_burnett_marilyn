@@ -231,8 +231,22 @@ footer ul li a:hover {
 Events Page
 ==================================*/
 
-.eventmain {
-	margin: 1em 8% 2em;
+.eventsmain h2 {
+	font-size: 3.875em;
+	font-weight: bolder;
+	text-align: right;
+	text-shadow: .04em -.02em .02em #ffffff, -.04em .03em .01em #ffffff;
+	margin: 0;
+	line-height: 55%;
+	padding: 0 5% 0;
+}
+
+.events {
+	margin: 0 8% 1em;
+}
+
+.events figure {
+	text-align: center;
 }
 
 img[alt="Creating"] {
