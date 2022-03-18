@@ -16,6 +16,13 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+
+        <!-- link to Javascript Library -->
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+        <script src="js/jquery.elimore.js"></script>
+        
     </head>
 
     <!-- Main Content -->
@@ -58,8 +65,11 @@
                             <li>&FilledSmallSquare; Current Information</li>
                             <li>&FilledSmallSquare; Variety of Other Resources</li>
                         </ul>
-                        <p>Our virtual/online programs do not require a membership. These are FREE to all adults 50+. To join in, please contact the center at <a href="tel:9018677698">(901) 867&#8209;7698</a> and we can help you get started.</p>
-                        <p>Virtual programs are through Zoom with the latest privacy settings. Registration is required to make this as secure as possible. Each program we offer is also free unless noted otherwise In–person activities are limited to current members only who have submitted a membership application and $12 annual fee.</p>
+                        <div class="abtmore">
+                            <p>When we move toward seasons when outside activities are limited &mdash; use it as an opportunity to learn how to navigate our online programs. Virtual programs open a whole new world not only within our center, but they also allow connection with friends, family, and organizations across the world.</p>
+                            <p>Our virtual/online programs do not require a membership. These are FREE to all adults age 50+. To join in, please contact the center at <a href="tel:9018677698">(901) 867&#8209;7698</a> and we can help you get started.</p>
+                            <p>Virtual programs are through Zoom with the latest privacy settings. Registration is required to make this as secure as possible. Each program we offer is also free unless noted otherwise In–person activities are limited to current members only who have submitted a membership application and $12 annual fee.</p>
+                        </div>
                     </article>
                 </section>
             </main>
@@ -84,5 +94,30 @@
             </footer>
         </div>   
         
+        <script>
+            $(function(){
+    
+              $(".abtmore").elimore();
+    
+            });
+    
+            $(function(){
+    
+              $(".abtmore").elimore({
+                maxLength: 445
+              });
+    
+            });
+    
+            $(function(){
+    
+              $(".abtmore").elimore({
+                moreText:"Read More",
+                lessText:"Read Less"
+              });
+    
+            });
+        </script> 
+
     </body>
 </html>

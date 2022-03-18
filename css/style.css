@@ -348,6 +348,33 @@ article ul li {
 	text-indent: 8%;
 }
 
+.abtmore {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .938em;
+	line-height: 155%;
+	padding: 1em 0;
+}
+
+.abtmore > a {
+	display: block;
+	padding: .2em 2%;
+	width: 39%;
+	margin: 1.3em 30% 3em;
+	text-align: center;
+	text-decoration: none;
+	color:#212226;
+	font-weight: bold;
+	border-radius: .5em;
+	background-color: rgba(30, 64, 64, 25%);
+	border: .1em solid #212226;
+}
+
+.abtmore a:hover, a:active {
+	color: #ffffff;
+	font-weight: bolder;
+	background-color:#1e4040;
+}
+
 .abtftr {
 	clear: both;
 }
