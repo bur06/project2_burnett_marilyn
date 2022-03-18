@@ -537,9 +537,10 @@ Media Querries
 	}
 	
 	#hamitems a:hover {
-		opacity: 90%;
+		opacity: 80%;
 		color: #265954;
 		font-weight: bolder;
+		background-color: #ffffff;
 	}
 	
 	#navright label {
@@ -625,7 +626,7 @@ Media Querries
 	}
 
 	#hamitems a {
-		color: #265954;
+		color: #212226;
 		flex-grow: 1 1 auto;
 		flex-basis: 0;
 	}
