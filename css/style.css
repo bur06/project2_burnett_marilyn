@@ -616,13 +616,11 @@ Media Querries
 		font-weight: bold;
 	}
 
-
 /*------Events Page------*/
 
 	.eventspage h2 {
 		font-size: 4em;
 	}
-
 
 /*-------About Page-------*/
 
@@ -721,7 +719,6 @@ Media Querries
 		content: "•";
 	}
 
-	
 /*------Events Page------*/
 
 	h3 {
@@ -803,7 +800,6 @@ Media Querries
 		bottom: 2em;
 	}
 
-
 /*-------About Page-------*/
 
 	.abtleft {
@@ -851,15 +847,13 @@ Media Querries
 		margin: 1.3em 34% 2em;
 	}
 
-}
-
-
 /*------Contact Page------*/
 
 	.contactftr {
 		background-color: rgb(38, 89, 84);
 		margin: 0;
 	}
+}
 
 
 /*======= Large Devices =======*/
@@ -894,7 +888,6 @@ Media Querries
 		line-height: .5%;
 	}
 
-	
 /*------Events Page------*/
 
 	.eventspage h2 {
@@ -911,7 +904,6 @@ Media Querries
 	.go-top.show {
 		bottom: 2.7em;
 	}
-
 
 /*-------About Page-------*/
 
@@ -981,7 +973,6 @@ Media Querries
 		line-height: .6%;
 	}
 
-	
 /*------Events Page------*/
 
 	.eventspage h2 {
@@ -994,8 +985,7 @@ Media Querries
 
 	.go-top {
 		right: .7em;
-  }  
-
+  	}  
 
 /*-------About Page-------*/
 
