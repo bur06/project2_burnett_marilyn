@@ -290,16 +290,16 @@ img[alt="Using Stability Balls"] {
 	  height: 1.25em;
 	  line-height: 1.5em;
 	  text-align: center;
-	  font-size: 2em;
+	  font-size: 2.25em;
 	  font-weight: bold;
 	  position: fixed;
 	  bottom: -1em;
-	  right: .5em;
+	  right: .25em;
 	  -webkit-transition: all 1s ease;
 	  -moz-transition: all 1s ease;
 	  -o-transition: all 1s ease;
 	  transition: all 1s ease;
-	  background-color: rgba(33, 34, 38, 25%);
+	  background-color: rgba(33, 34, 38, 23%);
 	  color: #FFFFFF;
 	  text-decoration: none;
 	  -moz-border-radius: 5px;
@@ -308,11 +308,11 @@ img[alt="Using Stability Balls"] {
 }
 	
 .go-top.show {
-	bottom: 3em;
+	bottom: .5em;
 }
-	
+
 .go-top:hover {
-	background-color:rgba(30, 64, 64, 44%);
+	background-color:rgb(30, 64, 64);
 	color:#FFFFFF;
 	font-weight: bolder;
 }
@@ -798,6 +798,10 @@ Media Querries
 		display: none;
 		max-width: 85%;
 	}
+		
+	.go-top.show {
+		bottom: 2em;
+	}
 
 
 /*-------About Page-------*/
@@ -903,6 +907,10 @@ Media Querries
 		max-width: 85%;
 		padding: .5em 0 0;
 	}
+	
+	.go-top.show {
+		bottom: 2.7em;
+	}
 
 
 /*-------About Page-------*/
@@ -983,6 +991,10 @@ Media Querries
 	.events {
 		margin: 0 4% 2em;
 	}
+
+	.go-top {
+		right: .7em;
+  }  
 
 
 /*-------About Page-------*/
