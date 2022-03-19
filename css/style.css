@@ -284,6 +284,39 @@ img[alt="Using Stability Balls"] {
 	display: none;
 }
 
+.go-top {
+	  display: block;
+	  width: 1.25em;
+	  height: 1.25em;
+	  line-height: 1.5em;
+	  text-align: center;
+	  font-size: 2em;
+	  font-weight: bold;
+	  position: fixed;
+	  bottom: -1em;
+	  right: .5em;
+	  -webkit-transition: all 1s ease;
+	  -moz-transition: all 1s ease;
+	  -o-transition: all 1s ease;
+	  transition: all 1s ease;
+	  background-color: rgba(33, 34, 38, 25%);
+	  color: #FFFFFF;
+	  text-decoration: none;
+	  -moz-border-radius: 5px;
+	  -webkit-border-radius: 5px;
+	  border-radius: .25em;
+}
+	
+.go-top.show {
+	bottom: 3em;
+}
+	
+.go-top:hover {
+	background-color:rgba(30, 64, 64, 44%);
+	color:#FFFFFF;
+	font-weight: bolder;
+}
+
 
 /*=================================
 About Page
